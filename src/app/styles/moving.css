@@ -1,0 +1,20 @@
+.animate-Loop-scroll {
+    animation: loop-scroll 10s linear infinite;
+  }
+  
+  @keyframes loop-scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .count{
+    background-image: url('../assets/Image/IKN_BG1.svg');
+    background-position: center;
+    background-size:auto;
+    background-repeat: no-repeat;
+    
+}
