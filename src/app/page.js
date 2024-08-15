@@ -1,10 +1,11 @@
 "use client";
 import Image from "next/image";
-
+import Hero from "./components/Hero/hero";
 import Rambut from "../app/assets/Image/Rambut1.png";
+import Bg from "../app/assets/Image/Bgputih.png";
 import { delay, motion } from "framer-motion";
-import "./styles/hero.css";
 
+import "./styles/hero.css";
 import { createContext, useEffect, useState } from "react";
 import DataImages from "./data/data-image";
 import { useRouter } from "next/navigation";
