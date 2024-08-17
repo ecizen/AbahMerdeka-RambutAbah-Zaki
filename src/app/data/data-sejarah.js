@@ -2,6 +2,8 @@ import DataImages from "./data-image";
 const DataSejarah = [
     {
       id: 1,
+      tahun1: "1602",
+      tahun2: "1800",
       image:  DataImages.Sejarah1,
       title: "VOC dan Awal Penjajahan Belanda",
       description:
@@ -9,6 +11,8 @@ const DataSejarah = [
     },
     {
       id: 2,
+      tahun1: "1942",
+      tahun2: "1945",
       image: DataImages.Sejarah2,
       title: "Pendudukan Jepang",
       description:
@@ -16,6 +20,8 @@ const DataSejarah = [
     },
     {
       id: 3,
+      tahun1: "1945",
+      tahun2: "1949",
       image: DataImages.Sejarah3,
       title: "Proklamasi Kemerdekaan dan Perjuangan",
       description:

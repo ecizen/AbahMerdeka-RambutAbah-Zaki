@@ -40,9 +40,9 @@ export default function Sejarah() {
               className="flex flex-col md:flex-col lg:flex-row items-center bg-gray-50 justify-center lg:gap-8 mt-12 pt-4 pb-6 border-b border-gray-300"
             >
               <div className="flex lg:flex-col flex-row justify-center items-center ">
-                <h2 className="text-3xl text-gray-700 font-semibold">1062</h2>
+                <h2 className="text-3xl text-gray-700 font-semibold">{data.tahun1}</h2>
                 <h2 className="text-3xl text-gray-700 font-semibold">-</h2>
-                <h2 className="text-3xl text-gray-700 font-semibold">1945</h2>
+                <h2 className="text-3xl text-gray-700 font-semibold">{data.tahun2}</h2>
               </div>
               <div className="flex lg:flex-row flex-col lg:items-center items-start gap-4">
                 <Image

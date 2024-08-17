@@ -6,11 +6,7 @@ import Image from "next/image";
 import React, { useState, useEffect } from "react";
 
 export default function Pahlawan() {
-  const [hoveredHero, setHoveredHero] = useState(1); // Set default hovered hero to ID 1
-
-  useEffect(() => {
-    // Do nothing, we don't need to set the state again
-  }, []);
+  const [hoveredHero, setHoveredHero] = useState(1); 
 
   const handleHover = (id) => {
     setHoveredHero(id);
@@ -18,7 +14,7 @@ export default function Pahlawan() {
 
   const backgroundImage = hoveredHero
     ? Herogambar.find((hero) => hero.id === hoveredHero).img
-    : images.DefaultBackgroundImg; // default background image
+    : images.DefaultBackgroundImg;
 
   return (
     <main className="min-h-screen relative">
@@ -38,8 +34,6 @@ export default function Pahlawan() {
           initial={{ opacity: 0 }}
         />
       </motion.div>
-
-      {/* Hero Names */}
       <div className="relative h-screen z-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 items-center justify-center  px-12 py-2">
         {HeroName.map((item, index) => (
           <motion.div
